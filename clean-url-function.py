@@ -1,5 +1,7 @@
 import re
 
+# this function is used to clean a URL for logging purposes
+
 def clean_url_for_log(string):
     url = string
     if url:
